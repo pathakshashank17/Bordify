@@ -1,0 +1,17 @@
+{
+    "name": "Bordify",
+    "description": "Add borders to all elements to help in pixel precise alignments and layouts",
+    "manifest_version": 2,
+    "version": "0.1.0",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "web_accessible_resources": ["styles.css"]
+}
