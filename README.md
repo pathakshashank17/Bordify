@@ -1,4 +1,5 @@
 <h1 align="center">Bordify 🟨</h1>
+<img src="https://raw.githubusercontent.com/pathakshashank17/Bordify/master/assets/demo.gif" alt="Demo"> 
 
 <p align="center">
     Bordify is an extremely basic chrome extension that will hopefully help in mastering the art 🎨 of aligning stuff. It works by adding a translucent yellow border to elements that becomes darker as the element becomes more nested. Also it adds a red border to element on hovering above it so that its outline becomes visible. Nothing too fancy ✨.
