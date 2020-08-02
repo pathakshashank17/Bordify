@@ -31,7 +31,7 @@ thead,
 tbody, 
 tfoot, 
 footer {
-    border: 1px solid #faed27 !important;
+    background-color: rgba(255, 255, 108, 0.217) !important;
 }
 
 div:hover, 
@@ -67,5 +67,5 @@ thead:hover,
 tbody:hover, 
 tfoot:hover, 
 footer:hover {
-    border: 1px solid red !important;
+    border: 2px solid red !important;
 }

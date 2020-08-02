@@ -1,9 +1,13 @@
-chrome.runtime.onMessage.addListener((message) => {
-    console.log(message);
-    if (message.action === "activate") {
-        chrome.tabs.executeScript({ file: "addBorder.js" });
-    } else if (message.action === "deactivate") {
-        chrome.tabs.executeScript({ file: "removeBorder.js" });
+var isOn = false;
+
+chrome.runtime.onMessage.addListener(({action}) => {
+    if (action === "toggle") {
+        if (isOn) {
+            chrome.tabs.executeScript({ file: "removeBorder.js" });
+        } else {
+            chrome.tabs.executeScript({ file: "addBorder.js" });
+        }
+        isOn = !isOn;
     }
     return true;
 });
