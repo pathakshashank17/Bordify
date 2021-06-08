@@ -6,9 +6,10 @@
 </p>
 
 <h2 align="center">Installation</h2>
-<p align="center">
-    Sadly, chrome webstore has a registration fees of $5, so the installation has to be manual 😔.
-</p>
+
+### From `Chrome Web Store`
+- Visit this link: [Bordify](https://chrome.google.com/webstore/detail/bordify/chhnnmfejfcnakgbhpincdpnaeadpfhe?hl=en&authuser=0)
+- Click on `Add to Chrome` and then click on `Add extension` in the popup that appears.
 
 ### Using `git clone`
 
